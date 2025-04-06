@@ -1,8 +1,7 @@
 first:
   name: First quote
+# second:
+#   name: Second quote
 
-second:
-  name: First quote
-
-third:
-  name: First quote
+# third:
+#   name: Third quote

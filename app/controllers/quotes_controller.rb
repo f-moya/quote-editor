@@ -24,6 +24,14 @@ class QuotesController < ApplicationController
   def edit
   end
 
+  def update
+    if @quote.update(quote_params)
+      redirect_to quotes_path, notice: "Quote was successfully updated."
+    else
+      render :edit
+    end
+  end
+
   def destroy
     @quote.destroy
     redirect_to quotes_path, notice: "Quote was successfully destroyed."
