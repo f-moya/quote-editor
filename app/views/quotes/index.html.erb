@@ -1,6 +1,6 @@
 <%# app/views/quotes/index.html.erb %>
 
-<%= turbo_stream_from "quotes" %>
+<%= turbo_stream_from current_company, "quotes" %>
 
 <main class="container">
   <div class="header">
