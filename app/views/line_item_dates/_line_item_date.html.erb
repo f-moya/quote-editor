@@ -10,6 +10,7 @@
       <%= button_to "Delete",
                     [quote, line_item_date],
                     method: :delete,
+                    form: { data: { turbo_confirm: "Are you sure?" } },
                     class: "btn btn--light" %>
       <%= link_to "Edit",
                   [:edit, quote, line_item_date],
