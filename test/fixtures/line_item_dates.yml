@@ -1,0 +1,7 @@
+today:
+  quote: first
+  date: <%= Date.current %>
+
+next_week:
+  quote: first
+  date: <%= Date.current + 1.week %>
