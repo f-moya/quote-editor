@@ -1,7 +1,7 @@
 <%# app/views/quotes/_form.html.erb %>
 
 <%= simple_form_for quote, html: { class: "quote form" } do |f| %>
-  <%= from_error_notification(quote) %>
+  <%= form_error_notification(quote) %>
 
   <%= f.input :name, input_html: { autofocus: true } %>
   <%= link_to "Cancel", quotes_path, class: "btn btn--light" %>
