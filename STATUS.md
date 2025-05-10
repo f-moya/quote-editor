@@ -1,3 +1,3 @@
 # STATUS 
 
-Creating line items without Turbo
+https://www.hotrails.dev/turbo-rails/quote-totals-turbo-frames
